@@ -1,7 +1,7 @@
 /*-- Tom Bielawski
   -- Lambda School Web45
   -- Unit 1, Module 4 Sprint
-  -- index.html
+  -- index.css
   -- 06/03/2021 --*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -71,12 +71,59 @@ p {
     line-height: 1.4;
 }
 
-.container {
+/* My styling begins here */
+/* Black header bar at top of page */
+.headerBar
+{
+    width: 100%;
+    background: black;
+    height: 4vh;
+}
+
+/* Blurry highway image below nav bar */
+.pic img
+{
+    height: 25%;
+    width: 95%;
+    margin: 2%;
+    padding-left: 3%;
+}
+
+/* Nav Styling */
+nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+.navBar
+{
+    padding-top: 1%;
+    padding-left: 4%;
+    width: 100%;  
+    margin: 0;
+}
+
+.navButton
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 15%;
+    padding-top: 2.75%;
+    
+}
+
+/* -- Main container -- */
+.container 
+{
     width: 800px;
     margin: 0 auto;
 }
 
-.top-content {
+/* Future and past containers */
+.top-content 
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -84,32 +131,39 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .text-container 
+{
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+/* Middle page container */
+.middle-content 
+{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+/* Boxes header */
+.middle-content h2 
+{
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+/* Why boxes??? :) */
+.middle-content .boxes 
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box 
+{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -117,26 +171,44 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+/* Box coloring */
+.one    { background-color: teal;       }
+.two    { background-color: gold;       }
+.three  { background-color: cadetblue;  }
+.four   { background-color: coral;      }
+.five   { background-color: crimson;    }
+.six    { background-color: forestgreen;}
+.seven  { background-color: darkorchid; }
+.eight  { background-color: hotpink;    }
+.nine   { background-color: indigo;     }
+.ten    { background-color: dodgerblue; }
+
+.bottom-content 
+{
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content .text-container 
+{
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+.bottom-content .text-container:last-child 
+{
     padding-right: 0;
 }
 
-footer {
+/* Footer styling */
+footer 
+{
     width: 100%;
     background: black;
 }
 
-footer nav {
+footer nav 
+{
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -145,7 +217,74 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+footer nav a 
+{
     color: white;
     text-decoration: none;
 }
+
+/* **About page** */
+
+/* Heading */
+h1
+{
+    text-align: left;
+    padding-left: 2%;
+}
+
+/* About Paragraph */
+
+/* Dotted line style */
+.dottedLine
+{
+    border-bottom: dotted black .25vh;
+    padding: 0 2% 5% 2%;
+}
+
+/* Middle Section boxes */
+/* Button styling */
+.button
+{
+    width: 15%;
+    display: inline;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 2.25rem;
+    text-align: center;
+    padding: .5rem;
+    margin: 4rem 0 4rem 0;
+}
+
+/* Paragraph styling */
+p
+{
+    padding-top: 0%;
+    padding-bottom: 6%;
+    padding-left: .5%;
+}
+
+/* Section styling */
+.aboutPageSections
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+/* Spacing adjustments */
+.spacing
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+}
+
+/* bottom section h1 and p */
+.together
+{
+    padding-top: 0%;
+    padding-left: 2%;
+}
+

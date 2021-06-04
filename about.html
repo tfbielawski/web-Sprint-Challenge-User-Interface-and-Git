@@ -1,71 +1,134 @@
-<!doctype html>
+<!-- Tom Bielawski
+  -- Lambda School Web45
+  -- Unit 1, Module 4 Sprint
+  -- about.html
+  -- 06/04/2021 -->
+  
+  <!doctype html>
 
 <html lang="en">
 <head>
   <meta charset="utf-8">
 
   <title>Sprint Challenge - About</title>
-
+  <!-- Link to CSS and external fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
 
 </head>
 
 <body>
-    <div class="container about-page">
-     
-    About
-
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-
-    <img src="img/about-plan.png" alt="strategy">
+  <!-- Header section -->
+  <header>
+        <!-- Nav bar class -->
+        <nav class = "navBar">
+            <!-- icon gets it's own class -->
+            <div class="lamButton">
+                <a href = "https://lambdaschool.com">
+                    <img src = "img/lambda-black.png"></a>
+            </div>
+            <div class="navButton"><a href = "index.html">Home</a>       </div>
+            <div class="navButton"><a href = "about.html">About</a>      </div>
+            <div class="navButton"><a href = "projects.html">Projects</a></div>
+            <div class="navButton"><a href = "blog.html">Blog</a>        </div>
+            <div class="navButton"><a href = "contact.html">Contact</a>  </div>
+        </nav>
     
-    Strategy
+</header>
+
+   <!-- Container to hold the jumbo picture -->
+    <div class = "pic">
+        <span>
+          <img src = "img/jumbo-about.png">
+        </span>
+    </div>
+    <div class = "container about-page">
     
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-
-
-    <img src="img/about-working.png" alt="strategy">
-    
-    How We Work
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
+    <!-- Section to hold about text and dotted line -->
+    <section class = "aboutPageSections">
+      <span>
+        <h1>About</h1>
+        <p class = "dottedLine">Leverage agile frameworks to provide a robust synopsis for high level overviews.
+         Iterative approaches to corporate strategy foster collaborative thinking
+          to further the overall value proposition. Organically grow the holistic 
+          world view of disruptive innovation via workplace diversity and empowerment.
+          </p>
+      </span> 
+    </section>
 
 
+    <!-- Strategy -->
+    <section class = "aboutPageSections">
+      <div class = "spacing">
+        <div class = "dottedLine">
+          <img src="img/about-plan.png" alt="strategy">
+            <h3>Strategy</h3>
+            <p>Iterative approaches to corporate strategy foster collaborative
+          thinking to further the overall value proposition.
+            </p>
+          <!-- button class for "learn more" -->
+          <div class="button">Learn More</div>
+        </div>
+      </div>  
+      
+      <!-- How We Work -->
+      <div class = "spacing">
+        <div class = "dottedLine">
+          <img src="img/about-working.png" alt="How We Work">
+            <h3>How We Work</h3>
+            <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+            </p>
+          <!-- button class for "learn more" -->
+          <div class="button">Learn More</div>
+        </div>
+      </div>
+    </section>
 
-    <img src="img/about-office.png" alt="strategy">
-    
-    Places We Work
+    <!-- Places We Work -->
+    <section class = "aboutPageSections">
+      <div class = "spacing">
+        <div class = "dottedLine">
+          <img src="img/about-office.png" alt="places">
+            <h3>Places We Work</h3>
+            <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+            </p>
+          <!-- button class for "learn more" -->
+          <div class="button">Learn More</div>
+        </div> 
+      </div> 
 
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+     <!-- Collaboration -->
+      <div class = "spacing">
+        <div class = "dottedLine">
+          <img src="img/about-meeting.png" alt="Collaboration">
+            <h3>Collaboration</h3>
+            <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+            </p>
+          <!-- button class for "learn more" -->
+          <div class="button">Learn More</div>
+        </div>
+      </div>  
+    </section>
 
-    Learn More
+    <!-- Bottom section -->
+    <section class = "aboutPageSections">
+      <span>
+        <div>
+          <!-- Class for styling this h3 and p -->
+          <h3 class = "together">Let's Work Together</h3>
+        </div>
+        <p class = "together">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+        </p>
+      </span>
+    </section>
 
-    <img src="img/about-meeting.png" alt="strategy">
-    
-    Collaboration
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    Let's Work Together
-
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-        
       <footer>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="#">About</a>
-          <a href="#">Products</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
+          <div class="navButton"><a href = "index.html">Home</a>       </div>
+            <div class="navButton"><a href = "about.html">About</a>      </div>
+            <div class="navButton"><a href = "projects.html">Projects</a></div>
+            <div class="navButton"><a href = "blog.html">Blog</a>        </div>
+            <div class="navButton"><a href = "contact.html">Contact</a>  </div>
         </nav>
       </footer>
     </div><!-- container -->        
