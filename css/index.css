@@ -2,7 +2,7 @@
   -- Lambda School Web45
   -- Unit 1, Module 4 Sprint
   -- index.css
-  -- 06/03/2021 --*/
+  -- 06/04/2021 --*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -71,7 +71,10 @@ p {
     line-height: 1.4;
 }
 
-/* My styling begins here */
+/***------------------------***/
+/*** My styling begins here ***/
+/***------------------------***/
+
 /* Black header bar at top of page */
 .headerBar
 {
@@ -114,7 +117,7 @@ nav
     
 }
 
-/* -- Main container -- */
+/* Main container */
 .container 
 {
     width: 800px;
@@ -152,7 +155,7 @@ nav
     margin-bottom: 0;
 }
 
-/* Why boxes??? :) */
+/* Why boxes */
 .middle-content .boxes 
 {
     display: flex;
@@ -223,7 +226,7 @@ footer nav a
     text-decoration: none;
 }
 
-/* **About page** */
+/*** About page ***/
 
 /* Heading */
 h1
@@ -232,8 +235,6 @@ h1
     padding-left: 2%;
 }
 
-/* About Paragraph */
-
 /* Dotted line style */
 .dottedLine
 {
@@ -241,7 +242,6 @@ h1
     padding: 0 2% 5% 2%;
 }
 
-/* Middle Section boxes */
 /* Button styling */
 .button
 {
